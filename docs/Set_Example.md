@@ -11,27 +11,49 @@
 
 **Basic Operations**
 1.	Creating a Set:<be>
-```Set<String> set = new HashSet<>();```
-3.	Add <be>
-```set.add("Apple"); ```
-     ```set.add("Banana"); ```
-    ``` set.add("Cherry");```
-4.	Removing Elements (remove())<be>
-```set.remove("Banana");```
-5.	Checking if an Element Exists (contains())<be>
-```boolean exists = set.contains("Apple");  // true```
-6.	Iterate using foreach<be>
-```set.forEach(System.out::println);```
-7.	Clearing a Set (clear())<be>
-```set.clear();  // Removes all elements```
-8.	Checking if Set is Empty (isEmpty())<be>
-```boolean empty = set.isEmpty();  // true if set is empty```
-9.	Adding All Elements from Another Collection (addAll())<be>
-```Set<String> set2 = new HashSet<>(List.of("Mango", "Orange"));```
-```set.addAll(set2);```
-9.	Removing All Elements (removeAll())<be>
-```set.removeAll(set2);  // Removes all elements in set2 from set```
-10.	Retaining Common Elements (retainAll())<be>
-```set.retainAll(Set.of("Apple", "Mango"));  // Keeps only these elements```
-11.	Covert to list<be>
-```List<String> list = new ArrayList<>(set);```
+```
+Set<String> set = new HashSet<>();
+```
+3.	Add <br>
+```
+set.add("Apple"); 
+set.add("Banana"); 
+set.add("Cherry");
+```
+5.	Removing Elements (remove())<br>
+```
+set.remove("Banana");
+```
+7.	Checking if an Element Exists (contains())<br>
+```
+boolean exists = set.contains("Apple");  // true
+```
+9.	Iterate using foreach<br>
+```
+set.forEach(System.out::println);
+```
+11.	Clearing a Set (clear())<br>
+```
+set.clear();  // Removes all elements
+```
+13.	Checking if Set is Empty (isEmpty())<br>
+```
+boolean empty = set.isEmpty();  // true if set is empty
+```
+15.	Adding All Elements from Another Collection (addAll())<br>
+```
+Set<String> set2 = new HashSet<>(List.of("Mango", "Orange"));
+set.addAll(set2);
+```
+9.	Removing All Elements (removeAll())<br>
+```
+set.removeAll(set2);  // Removes all elements in set2 from set
+```
+11.	Retaining Common Elements (retainAll())<br>
+```
+set.retainAll(Set.of("Apple", "Mango"));  // Keeps only these elements
+```
+13.	Covert to list<br>
+```
+List<String> list = new ArrayList<>(set);
+```
