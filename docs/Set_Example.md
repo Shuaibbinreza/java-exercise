@@ -13,9 +13,9 @@
 1.	Creating a Set: 
 ```Set<String> set = new HashSet<>();```
 2.	Add
-```set.add("Apple"); 
-     set.add("Banana"); 
-     set.add("Cherry");```
+```set.add("Apple"); ```
+     ```set.add("Banana"); ```
+    ``` set.add("Cherry");```
 3.	Removing Elements (remove())
 ```set.remove("Banana");```
 4.	Checking if an Element Exists (contains())
