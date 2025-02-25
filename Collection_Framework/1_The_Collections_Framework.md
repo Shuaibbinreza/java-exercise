@@ -84,110 +84,76 @@
 **6. Examples of Common Collections Usage**
 
 **List Example (ArrayList)**
-
-import java.util.\*;
-
+```
+import java.util.*;
 class Main {
-
-public static void main(String\[\] args) {
-
-List\<String\> list = new ArrayList\<\>();
-
-list.add(\"Apple\");
-
-list.add(\"Banana\");
-
-list.add(\"Cherry\");
-
-System.out.println(list); // Output: \[Apple, Banana, Cherry\]
-
+    public static void main(String[] args) {
+        List<String> list = new ArrayList<>();
+        list.add("Apple");
+        list.add("Banana");
+        list.add("Cherry");
+        System.out.println(list);  // Output: [Apple, Banana, Cherry]
+    }
 }
-
-}
+```
 
 **Set Example (HashSet)**
-
-import java.util.\*;
-
+```
+import java.util.*;
 class Main {
-
-public static void main(String\[\] args) {
-
-Set\<Integer\> set = new HashSet\<\>();
-
-set.add(10);
-
-set.add(20);
-
-set.add(10); // Duplicate ignored
-
-System.out.println(set); // Output: \[10, 20\]
-
+    public static void main(String[] args) {
+        Set<Integer> set = new HashSet<>();
+        set.add(10);
+        set.add(20);
+        set.add(10);  // Duplicate ignored
+        System.out.println(set); // Output: [10, 20]
+    }
 }
-
-}
+```
 
 **Map Example (HashMap)**
-
-import java.util.\*;
-
+```
+import java.util.*;
 class Main {
-
-public static void main(String\[\] args) {
-
-Map\<String, Integer\> map = new HashMap\<\>();
-
-map.put(\"Apple\", 3);
-
-map.put(\"Banana\", 2);
-
-System.out.println(map.get(\"Apple\")); // Output: 3
-
+    public static void main(String[] args) {
+        Map<String, Integer> map = new HashMap<>();
+        map.put("Apple", 3);
+        map.put("Banana", 2);
+        System.out.println(map.get("Apple")); // Output: 3
+    }
 }
-
-}
+```
 
 **Queue Example (PriorityQueue)**
-
-import java.util.\*;
-
+```
+import java.util.*;
 class Main {
-
-public static void main(String\[\] args) {
-
-Queue\<Integer\> pq = new PriorityQueue\<\>();
-
-pq.add(5);
-
-pq.add(1);
-
-pq.add(3);
-
-System.out.println(pq.poll()); // Output: 1 (smallest element)
-
+    public static void main(String[] args) {
+        Queue<Integer> pq = new PriorityQueue<>();
+        pq.add(5);
+        pq.add(1);
+        pq.add(3);
+        System.out.println(pq.poll()); // Output: 1 (smallest element)
+    }
 }
-
-}
+```
 
 **7. Iterating Over Collections**
 
 **Using Iterator**
-
-Iterator\<String\> iterator = list.iterator();
-
+```
+Iterator<String> iterator = list.iterator();
 while (iterator.hasNext()) {
-
-System.out.println(iterator.next());
-
+    System.out.println(iterator.next());
 }
+```
 
 **Using For-Each Loop**
-
+```
 for (String item : list) {
-
-System.out.println(item);
-
+    System.out.println(item);
 }
+```
 
 **8. Key Takeaways**
 
