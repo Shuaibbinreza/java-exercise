@@ -72,13 +72,13 @@
   ----------------------------------------------------------------------------
   **Feature**                    **Arrays**   **Collections**
   ------------------------------ ------------ --------------------------------
-  Fixed Size                     Yes          No (Resizable)
+  Fixed Size                    | Yes         | No (Resizable)
 
-  Allows Dynamic Operations      No           Yes (Add, Remove, Sort, etc.)
+  Allows Dynamic Operations     | No          | Yes (Add, Remove, Sort, etc.)
 
-  Allows Generics                No           Yes
+  Allows Generics               | No          | Yes
 
-  Type-Safety                    No           Yes (With Generics)
+  Type-Safety                   | No          | Yes (With Generics)
   ----------------------------------------------------------------------------
 
 **6. Examples of Common Collections Usage**
