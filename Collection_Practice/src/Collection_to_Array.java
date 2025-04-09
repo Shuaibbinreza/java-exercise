@@ -1,6 +1,4 @@
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.List;
+import java.util.*;
 
 public class Collection_to_Array {
     public static void main(String[] args) {
